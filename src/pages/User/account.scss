@@ -1,0 +1,23 @@
+.account {
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 0 15px;
+  .logo {
+    display: block;
+    margin: auto;
+  }
+}
+
+:global {
+  .account-form {
+    .ant-form-item {
+      margin-bottom: 10px;
+      .ant-form-item-label {
+        line-height: 20px;
+      }
+    }
+    .btn {
+      width: 100%;
+    }
+  }
+}

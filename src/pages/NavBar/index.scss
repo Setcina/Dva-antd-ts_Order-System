@@ -1,0 +1,48 @@
+@import '../../scss/common.scss';
+
+.header {
+  white-space: nowrap;
+  height: 100%;
+  width: 100%;
+  background: #f8f9fa;
+  position: relative;
+  .logo {
+    display: inline-block;
+    height: 100%;
+    margin: auto 10px;
+  }
+  .menu-left {
+    display: inline-block;
+    vertical-align: top;
+    background: none;
+    border-bottom: none;
+    position: relative;
+    width: calc(100% - 44px);
+    .login {
+      position: absolute;
+      right: 68px;
+    }
+    .register {
+      position: absolute;
+      right: 0;
+    }
+  }
+  .dropdown-menu {
+    position: absolute;
+    right: 10px;
+    height: $header-height;
+    line-height: $header-height;
+    .email {
+      display: inline-block;
+      line-height: 1em;
+      max-width: 150px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .icon {
+      margin-left: 5px;
+      vertical-align: 0;
+    }
+  }
+}

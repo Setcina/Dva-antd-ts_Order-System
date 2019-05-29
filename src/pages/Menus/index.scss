@@ -1,0 +1,35 @@
+// “加入”按钮
+.add-btn {
+  padding: 0 5px;
+  height: 26px;
+  color: green;
+}
+// 购物车的-+按钮
+.cart-btn {
+  padding: 0 5px;
+  margin-right: 5px;
+  height: 26px;
+  color: green;
+  border: none;
+  background: none;
+  color: #333;
+  &:hover,
+  &:active,
+  &:focus {
+    border: none;
+    background: none;
+    color: #000;
+  }
+  &:last-of-type {
+    margin-right: 0;
+    margin-left: 5px;
+  }
+}
+// 总价
+.total-price {
+  margin-top: 10px;
+}
+// 提交按钮
+.submit-btn {
+  width: 100%;
+}
